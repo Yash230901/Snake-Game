@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background: url('../img/bg.jpg');
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#scoreBox{
+    position: absolute;
+    top: 9px;
+    right: 200px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'Odibee Sans', cursive;
+}
+#hiscoreBox{
+    position: absolute;
+    top: 59px;
+    right: 200px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'Odibee Sans', cursive;
+}
+#board{
+    background: linear-gradient(rgb(169, 223, 169),rgb(223, 223, 146));
+    width: 90vmin;
+    height: 92vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+}
+.head{
+    background: linear-gradient(rgb(236, 145, 145),rgb(228, 228, 135));
+    border: 2px solid rgb(34, 5, 34);
+    transform: scale(1.02);
+    border-radius: 8px;
+}
+.snake{
+    background-color: rgb(236, 130, 236);
+    border: .25vmin solid white;
+    border-radius: 8px;
+}
+.food{
+    background: linear-gradient(red,purple);
+    border: .25vmin solid black;
+    border-radius: 8px;
+}
