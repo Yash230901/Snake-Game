@@ -11,7 +11,7 @@ This game like many early classics has its roots in the arcades of the 70s it wa
 Controls :
 
 * Up, Down, Left and Right.
-* Red Colour box is the food and Pink Colour is the food. 
+* Red Colour box is the food and Pink Colour is the Snake. 
 
 Enjoy!
 
